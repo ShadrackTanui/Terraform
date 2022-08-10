@@ -247,6 +247,9 @@ resource "aws_s3_bucket_object" "Object1" {
   key = "Demo1.PNG"
   source = "web-server-image/Demo1.PNG"
 
-  
+
 }
+
+# Create a cloudfront distribution for cdn
+
 
