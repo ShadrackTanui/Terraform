@@ -252,4 +252,7 @@ resource "aws_s3_bucket_object" "Object1" {
 
 # Create a cloudfront distribution for cdn
 
+resource "aws_cloudfront_distribution" "websitecdn" {
+
+}
 
